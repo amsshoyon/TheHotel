@@ -18,6 +18,7 @@ import { ExperiencesComponent } from './lifestyle/experiences/experiences.compon
 import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
 import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
 import { WelnessAndSpaComponent } from './lifestyle/welness-and-spa/welness-and-spa.component';
+import { HomeComponent } from './home/home.component';
 
 
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
     { path: 'Experiences', component: ExperiencesComponent },
     { path: 'Excursions', component: ExcursionsComponent },
     { path: 'Resort', component: ResortActivitiesComponent },
-    { path: 'Welness$Spa', component: WelnessAndSpaComponent }
+    { path: 'Welness$Spa', component: WelnessAndSpaComponent },
+    { path: '', component: HomeComponent },
 ];
 @NgModule({
     imports: [RouterModule.forRoot(routes)],

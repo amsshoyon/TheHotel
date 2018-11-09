@@ -23,6 +23,10 @@ import { ExperiencesComponent } from './lifestyle/experiences/experiences.compon
 import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
 import { ResortActivitiesComponent } from './lifestyle/resort-activities/resort-activities.component';
 import { WelnessAndSpaComponent } from './lifestyle/welness-and-spa/welness-and-spa.component';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 
 
 @NgModule({
@@ -45,7 +49,11 @@ import { WelnessAndSpaComponent } from './lifestyle/welness-and-spa/welness-and-
     ExperiencesComponent,
     ExcursionsComponent,
     ResortActivitiesComponent,
-    WelnessAndSpaComponent
+    WelnessAndSpaComponent,
+    HomeComponent,
+    HeaderComponent,
+    SidenavListComponent,
+    NavtabsComponent
   ],
   imports: [
     BrowserModule,
